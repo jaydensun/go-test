@@ -1,2 +1,6 @@
 github.com/oliveagle/jsonpath v0.0.0-20180606110733-2e52cf6e6852 h1:Yl0tPBa8QPjGmesFh1D0rDy+q1Twx6FyU7VWHi8wZbI=
 github.com/oliveagle/jsonpath v0.0.0-20180606110733-2e52cf6e6852/go.mod h1:eqOVx5Vwu4gd2mmMZvVZsgIqNSaW3xxRThUJ0k/TPk4=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.556 h1:quCr68p76uVmfhyo5+sEqxz+O/x/gYxx3lNK4Hsom0s=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.556/go.mod h1:7sCQWVkxcsR38nffDW057DRGk8mUjK1Ing/EFOK8s8Y=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sms v1.0.556 h1:1bXZUmggF/re+xoEUDb+4t66cdcXmJVaUkQQBm6cZYI=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sms v1.0.556/go.mod h1:hPNZ7RvuHNyivnBHANR0JOywbZYFLma5GR+RQB/yZTg=

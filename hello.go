@@ -1,13 +1,27 @@
 package main
 
-import "fmt"
+import (
+	"log"
+	"runtime"
+	"time"
+)
 
+type Road int
+
+func findRoad(r *Road) {
+	log.Println("road:", *r)
+}
+func entry() {
+	var rd Road = Road(999)
+	r := &rd
+	runtime.SetFinalizer(r, findRoad)
+}
 func main() {
-
-	ss := make([]int, 5)
-	ss = append(ss, 4)
-	fmt.Println(ss)
-	fmt.Println(&ss[0])
-	println(ss)
-
+	entry()
+	log.Println()
+	for i := 0; i < 10; i++ {
+		time.Sleep(time.Second)
+		runtime.GC()
+		log.Println("gc: ", i)
+	}
 }
